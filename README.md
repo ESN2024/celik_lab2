@@ -1,6 +1,6 @@
-<h1> ESN11 - lab2 </h1>
+<h1> ESN11 - lab2 : Let’s count stuff </h1>
 
-<h2> Objectif </h2>
+**<h2> Objectif </h2>**
 
 L'objectif consiste à mettre en œuvre un compteur à 3 chiffres avec affichage 7 segments, accompagné d'un timer utilisant une interruption avec une période de 1 seconde.
 
