@@ -11,6 +11,8 @@ Le présent rapportexpose la mise en place d'un compteur progressant de 0 à 999
 
 <h3> Schéma fonctionnel </h3>
 
+![image](https://github.com/ESN2024/celik_lab2/assets/117944504/7a91b560-9a69-4e6a-a0d8-7d33b3a9ec0b)
+
 <h3> Platform Designer </h3>
 
 ![image](https://github.com/ESN2024/celik_lab2/assets/117944504/543999b4-c638-4b7e-b1ff-b0edcc8c647c)
