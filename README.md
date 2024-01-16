@@ -61,9 +61,9 @@ Le programme généré peut être chargé et exécuté dans le softcore du FPGA 
 
 Le code C est structuré en deux sections distinctes :
 
-- irq_handler_timer() : Cette routine gère l'interruption du timer. À chaque déclenchement de la routine, le drapeau d'interruption est réinitialisé. Elle génère une conversion binaire vers BCD en fonction d'un compteur de 16 bits (i), séparant le résultat en trois variables de 8 bits représentant l'unité, la dizaine et la centaine du compteur. Cette routine est déclenchée à chaque interruption, se produisant toutes les secondes.
+- **irq_handler_timer()** : Cette routine gère l'interruption du timer. À chaque déclenchement de la routine, le drapeau d'interruption est réinitialisé. Elle génère une conversion binaire vers BCD en fonction d'un compteur de 16 bits (i), séparant le résultat en trois variables de 8 bits représentant l'unité, la dizaine et la centaine du compteur. Cette routine est déclenchée à chaque interruption, se produisant toutes les secondes.
 
-- main() : Le programme principal est conçu pour enregistrer les interruptions du timer. En outre, il initialise le compteur à zéro. Ensuite, le programme entre dans une boucle infinie.
+- **main()** : Le programme principal est conçu pour enregistrer les interruptions du timer. En outre, il initialise le compteur à zéro. Ensuite, le programme entre dans une boucle infinie.
 
 <h3> Résultats </h3>
 
