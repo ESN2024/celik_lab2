@@ -47,7 +47,7 @@ Générer le Makefile du projet :
 
 ![image](https://github.com/ESN2024/celik_lab2/assets/117944504/5282a446-79ec-4683-b2ca-8feee2d1e756)
 
-Tout est prêt, nous allons maintenant écrire notre premier code C qui fonctionne sur notre propre processeur. N'oubliez pas de mettre à jour le Makefile avec le code source. La compilation se fait sur un shell Nios II :
+Tout est prêt, nous allons maintenant écrire notre code C qui fonctionne sur notre propre processeur. Ne pas oublier de mettre à jour le Makefile avec le code source. La compilation se fait sur un shell Nios II :
 
 ![image](https://github.com/ESN2024/celik_lab2/assets/117944504/3909ccea-5a81-4376-acb3-03f39afe25dd)
 
