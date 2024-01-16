@@ -39,13 +39,21 @@ Le système est composé de trois parties distinctes :
 
 <h3> Flux logiciel du NIOS II </h3>
 
-Ouvrir un terminal NIOS II et générer le BSP en lien avec les spécifications de la carte DE-10.
+Ouvrir un terminal NIOS II et générer le BSP en lien avec les spécifications de la carte DE-10 :
 
 ![image](https://github.com/ESN2024/celik_lab2/assets/117944504/ebe5bc0d-e87a-4f5e-ae38-c82db2e1db4e)
 
-Générer le Makefile du projet.
+Générer le Makefile du projet :
 
 ![image](https://github.com/ESN2024/celik_lab2/assets/117944504/5282a446-79ec-4683-b2ca-8feee2d1e756)
+
+Tout est prêt, nous allons maintenant écrire notre premier code C qui fonctionne sur notre propre processeur. N'oubliez pas de mettre à jour le Makefile avec le code source. La compilation se fait sur un shell Nios II :
+
+![image](https://github.com/ESN2024/celik_lab2/assets/117944504/3909ccea-5a81-4376-acb3-03f39afe25dd)
+
+Le programme généré peut être chargé et exécuté dans le softcore du FPGA :
+
+![image](https://github.com/ESN2024/celik_lab2/assets/117944504/cf975bec-1dbf-421a-ab79-c2db97d53171)
 
 <h3> Language C </h3>
 
@@ -58,6 +66,10 @@ Le code C est structuré en deux sections distinctes :
 - main() : Le programme principal est conçu pour enregistrer les interruptions du timer. En outre, il initialise le compteur à zéro. Ensuite, le programme entre dans une boucle infinie.
 
 <h3> Résultats </h3>
+
+Vérification du fonctionnement du compteur sans l'utilisation du timer (cette étape vise à confirmer que le compteur atteint la valeur 999 avant de retourner à 0) :
+
+Validation du bon fonctionnement global du système :
 
 <h3> Conclusion </h3>
 
