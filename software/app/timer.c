@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <stdint.h>
 #include "system.h"
 #include "altera_avalon_pio_regs.h"
 #include "sys/alt_stdio.h"
@@ -9,6 +7,9 @@
 #include <io.h>
 #include <alt_types.h>
 #include "sys/alt_sys_init.h"
+#include <unistd.h>
+#include <stdio.h>
+#include <stdint.h>
 
 uint32_t cpt = 0;
 

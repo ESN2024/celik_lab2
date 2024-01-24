@@ -2,9 +2,9 @@
 		port (
 			clk_clk                         : in  std_logic                    := 'X'; -- clk
 			reset_reset_n                   : in  std_logic                    := 'X'; -- reset_n
-			seg1_external_connection_export : out std_logic_vector(7 downto 0);        -- export
-			seg2_external_connection_export : out std_logic_vector(7 downto 0);        -- export
-			seg3_external_connection_export : out std_logic_vector(7 downto 0)         -- export
+			seg1_external_connection_export : out std_logic_vector(3 downto 0);        -- export
+			seg2_external_connection_export : out std_logic_vector(3 downto 0);        -- export
+			seg3_external_connection_export : out std_logic_vector(3 downto 0)         -- export
 		);
 	end component celik_lab2_sys;
 

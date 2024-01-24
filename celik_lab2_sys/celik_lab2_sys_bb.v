@@ -8,7 +8,7 @@ module celik_lab2_sys (
 
 	input		clk_clk;
 	input		reset_reset_n;
-	output	[7:0]	seg1_external_connection_export;
-	output	[7:0]	seg2_external_connection_export;
-	output	[7:0]	seg3_external_connection_export;
+	output	[3:0]	seg1_external_connection_export;
+	output	[3:0]	seg2_external_connection_export;
+	output	[3:0]	seg3_external_connection_export;
 endmodule

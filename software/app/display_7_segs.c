@@ -4,12 +4,14 @@
 #include "altera_avalon_pio_regs.h"
 #include "sys/alt_stdio.h"
 #include <unistd.h>
+#include <stdio.h>
+#include <stdint.h>
 
 int main(void)
 {
 	uint8_t data[3] = {0,0,0};					// 3-digit counter
 	uint32_t cpt; 
-	int speed_time = 75000;
+	uint32_t speed_time = 50000;
 	
 	while(1)
 	{	

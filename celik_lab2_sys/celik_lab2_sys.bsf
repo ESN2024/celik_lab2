@@ -40,22 +40,22 @@ refer to the applicable agreement for further details.
 	(port
 		(pt 0 152)
 		(output)
-		(text "seg1_external_connection_export[7..0]" (rect 0 0 152 12)(font "Arial" (font_size 8)))
-		(text "seg1_external_connection_export[7..0]" (rect 4 141 226 152)(font "Arial" (font_size 8)))
+		(text "seg1_external_connection_export[3..0]" (rect 0 0 152 12)(font "Arial" (font_size 8)))
+		(text "seg1_external_connection_export[3..0]" (rect 4 141 226 152)(font "Arial" (font_size 8)))
 		(line (pt 0 152)(pt 208 152)(line_width 3))
 	)
 	(port
 		(pt 0 192)
 		(output)
-		(text "seg2_external_connection_export[7..0]" (rect 0 0 153 12)(font "Arial" (font_size 8)))
-		(text "seg2_external_connection_export[7..0]" (rect 4 181 226 192)(font "Arial" (font_size 8)))
+		(text "seg2_external_connection_export[3..0]" (rect 0 0 153 12)(font "Arial" (font_size 8)))
+		(text "seg2_external_connection_export[3..0]" (rect 4 181 226 192)(font "Arial" (font_size 8)))
 		(line (pt 0 192)(pt 208 192)(line_width 3))
 	)
 	(port
 		(pt 0 232)
 		(output)
-		(text "seg3_external_connection_export[7..0]" (rect 0 0 153 12)(font "Arial" (font_size 8)))
-		(text "seg3_external_connection_export[7..0]" (rect 4 221 226 232)(font "Arial" (font_size 8)))
+		(text "seg3_external_connection_export[3..0]" (rect 0 0 153 12)(font "Arial" (font_size 8)))
+		(text "seg3_external_connection_export[3..0]" (rect 4 221 226 232)(font "Arial" (font_size 8)))
 		(line (pt 0 232)(pt 208 232)(line_width 3))
 	)
 	(drawing
